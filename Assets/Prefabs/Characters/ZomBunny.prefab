@@ -137,7 +137,7 @@ CapsuleCollider:
   m_Enabled: 1
   serializedVersion: 2
   m_Radius: 0.45
-  m_Height: 1.36
+  m_Height: 5
   m_Direction: 1
   m_Center: {x: 0.1, y: 0.65, z: 0}
 --- !u!135 &9148492888887253378
@@ -5140,8 +5140,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ZombieHealth
   Spawner: {fileID: 0}
   healthToRest: 100
-  cyclesToCure: 6
-  timeUntilRelapse: 30
+  cyclesToCure: 2
+  timeUntilRelapse: 40
   sinkSpeed: 2.5
   fallEffectTime: 2
   fallAsleepClip: {fileID: 0}

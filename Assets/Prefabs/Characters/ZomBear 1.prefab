@@ -8,9 +8,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 100072, guid: c236aa7ad6dcabe47abc7d2cf903ae71, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 100074, guid: c236aa7ad6dcabe47abc7d2cf903ae71, type: 3}
       propertyPath: m_Name
       value: ZomBear 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 100074, guid: c236aa7ad6dcabe47abc7d2cf903ae71, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 400074, guid: c236aa7ad6dcabe47abc7d2cf903ae71, type: 3}
       propertyPath: m_LocalPosition.x
@@ -127,7 +135,7 @@ CapsuleCollider:
   m_Enabled: 1
   serializedVersion: 2
   m_Radius: 0.7
-  m_Height: 1.3
+  m_Height: 5
   m_Direction: 1
   m_Center: {x: 0, y: 0.5, z: 0}
 --- !u!135 &1955160545745720230
@@ -5130,8 +5138,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ZombieHealth
   Spawner: {fileID: 0}
   healthToRest: 100
-  cyclesToCure: 6
-  timeUntilRelapse: 30
+  cyclesToCure: 2
+  timeUntilRelapse: 40
   sinkSpeed: 2.5
   fallEffectTime: 2
   fallAsleepClip: {fileID: 0}
@@ -5141,7 +5149,7 @@ MonoBehaviour:
   animator: {fileID: 3134385168450653494}
   audioSource: {fileID: 372462353774517708}
   capsuleCollider: {fileID: 2179454746676327652}
-  hitParticles: {fileID: 0}
+  hitParticles: {fileID: 19881454, guid: 8ffc03aa19116cb439ee0d88a9da0717, type: 3}
   lastZombieIndicator: {fileID: 55523189621798205}
   isInvulnerable: 0
   isCured: 0

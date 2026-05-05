@@ -5194,8 +5194,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ZombieHealth
   Spawner: {fileID: 0}
   healthToRest: 100
-  cyclesToCure: 6
-  timeUntilRelapse: 30
+  cyclesToCure: 2
+  timeUntilRelapse: 40
   sinkSpeed: 2.5
   fallEffectTime: 2
   fallAsleepClip: {fileID: 0}
