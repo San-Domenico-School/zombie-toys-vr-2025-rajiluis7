@@ -37,7 +37,7 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!199 &8354229544732707680
 ParticleSystemRenderer:
-  serializedVersion: 6
+  serializedVersion: 7
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -83,6 +83,7 @@ ParticleSystemRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_MaskInteraction: 0
   m_RenderMode: 0
   m_MeshDistribution: 0
   m_SortMode: 0
@@ -114,7 +115,6 @@ ParticleSystemRenderer:
   m_MeshWeighting1: 1
   m_MeshWeighting2: 1
   m_MeshWeighting3: 1
-  m_MaskInteraction: 0
 --- !u!198 &2967118519576003245
 ParticleSystem:
   m_ObjectHideFlags: 0
@@ -4845,6 +4845,7 @@ MonoBehaviour:
     m_Bits: 128
   plushizeBeam: {fileID: 1225248284319291607}
   plushizeHit: {fileID: 0}
+  plushizeParticleSystem: {fileID: 0}
 --- !u!1001 &1602950394899695898
 PrefabInstance:
   m_ObjectHideFlags: 0
