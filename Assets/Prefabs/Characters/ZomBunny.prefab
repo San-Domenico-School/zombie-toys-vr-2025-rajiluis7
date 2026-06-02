@@ -218,7 +218,7 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: 0
   m_Radius: 0.5
-  m_Speed: 10
+  m_Speed: 9.5
   m_Acceleration: 10
   avoidancePriority: 50
   m_AngularSpeed: 170
@@ -5159,8 +5159,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ZombieHealth
   Spawner: {fileID: 0}
-  healthToRest: 100
-  cyclesToCure: 7
+  healthToRest: 90
+  cyclesToCure: 6
   timeUntilRelapse: 82.5
   sinkSpeed: 2.5
   fallEffectTime: 0.3
